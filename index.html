@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>NBA Igrači</title>
+    <link rel="stylesheet" href="styles.css">
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+</head>
+<body>
+    <div class="background"></div>
+    <h1>NBA Igrači</h1>
+    <div class="gallery">
+        <div class="player">
+            <img src="doncic.jpg" alt="Luka Dončić" data-info="Ime: Luka Dončić|Datum rođenja: 28.2.1999|Tim: Lakers|Sezona: 6|Poeni: 9000+">
+            <p>Luka Dončić</p>
+        </div>
+        <div class="player">
+            <img src="lebron.jpg" alt="LeBron James" data-info="Ime: LeBron James|Datum rođenja: 30.12.1984|Tim: Lakers|Sezona: 21|Poeni: 39000+">
+            <p>LeBron James</p>
+        </div>
+        <div class="player">
+            <img src="durant.jpg" alt="Kevin Durant" data-info="Ime: Kevin Durant|Datum rođenja: 29.9.1988|Tim: Phoenix Suns|Sezona: 16|Poeni: 27000+">
+            <p>Kevin Durant</p>
+        </div>
+        <div class="player">
+            <img src="westbrook.jpg" alt="Russell Westbrook" data-info="Ime: Russell Westbrook|Datum rođenja: 12.11.1988|Tim: Denver Nuggets|Sezona: 16|Poeni: 24000+">
+            <p>Russell Westbrook</p>
+        </div>
+        <div class="player">
+            <img src="paulgeorge.jpg" alt="Paul George" data-info="Ime: Paul George|Datum rođenja: 2.5.1990|Tim: Philadelphia 76ers|Sezona: 14|Poeni: 16000+">
+            <p>Paul George</p>
+        </div>
+        <div class="player">
+            <img src="jokic.jpg" alt="Nikola Jokić" data-info="Ime: Nikola Jokić|Datum rođenja: 19.2.1995|Tim: Nikola Jokić|Sezona: 9|Poeni: 14000+">
+            <p>Nikola Jokić</p>
+        </div>
+    </div>
+
+    <div class="overlay">
+        <div class="overlay-center">
+            <span class="close">&times;</span>
+            <div class="overlay-content">
+                <img id="largeImage" src="" alt="">
+                <div class="player-info" id="playerInfo"></div>
+            </div>
+        </div>
+    </div>
+    
+
+    <script src="script.js"></script>
+</body>
+</html>
